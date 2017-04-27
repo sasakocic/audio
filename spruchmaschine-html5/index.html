@@ -1,0 +1,43 @@
+<html>
+<head>
+  <title>Spruchmaschine von Jelena Kocic</title>
+  <style type="text/css">
+    .button {
+       border-top: 1px solid #96d1f8;
+       background: #65a9d7;
+       background: -webkit-gradient(linear, left top, left bottom, from(#883e9c), to(#65a9d7));
+       background: -webkit-linear-gradient(top, #883e9c, #65a9d7);
+       background: -moz-linear-gradient(top, #883e9c, #65a9d7);
+       background: -ms-linear-gradient(top, #883e9c, #65a9d7);
+       background: -o-linear-gradient(top, #883e9c, #65a9d7);
+       padding: 12px 24px;
+       -webkit-border-radius: 15px;
+       -moz-border-radius: 15px;
+       border-radius: 15px;
+       -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
+       -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
+       box-shadow: rgba(0,0,0,1) 0 1px 0;
+       text-shadow: rgba(0,0,0,.4) 0 1px 0;
+       color: white;
+       font-size: 19px;
+       font-family: Georgia, Serif;
+       text-decoration: none;
+       vertical-align: middle;
+       }
+    .button:hover {
+       border-top-color: #397828;
+       background: #397828;
+       color: #ccc;
+       }
+    .button:active {
+       border-top-color: #1b435e;
+       background: #1b435e;
+       }
+  </style>
+</head>
+<body>
+  <audio src="spruch-name-01-na-digger.ogg" id="sound1" type="audio/ogg"></audio>
+  <button class="button" onclick="document.getElementById('sound1').play()">Digger!</button>
+
+</body>
+</html>
